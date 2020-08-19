@@ -22,7 +22,7 @@ jobs:
 
   build_openwrt:
 
-    name: Build OpenWrt
+    name: Build OpenWrt1
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
 
